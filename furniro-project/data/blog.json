@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "title": "The joy of a warm, layered room",
+    "title": "Layering Textures: Styling the Right-Facing Sectional Sofa",
     "category": "Interior",
     "date": "12 Aug 2026",
-    "excerpt": "Small changes in light, texture and proportion can completely shift a room.",
+    "excerpt": "Discover how to pair our luxurious sectional sofas with complementary decor to create a warm, inviting, and layered living space.",
     "image": "assets/figma/category-living.webp"
   },
   {
     "id": 2,
-    "title": "5 ways to make a small dining space feel bigger",
+    "title": "Elevate Your Dining Experience with the Workshop Set",
     "category": "Tips",
     "date": "03 Aug 2026",
-    "excerpt": "Use visual rhythm, lighter finishes and flexible furniture to create breathing room.",
+    "excerpt": "Learn how the sleek lines of our minimalist dining sets can bring elegance and visual breathing room to any dining area.",
     "image": "assets/figma/category-dining.webp"
   },
   {
     "id": 3,
-    "title": "Bedroom calm: choosing a softer palette",
+    "title": "Serene Bedrooms: Maximizing Space with the Penny Storage Bed",
     "category": "Bedroom",
     "date": "26 Jul 2026",
-    "excerpt": "A bedroom should feel quieter than the rest of the home. Here is how to build that mood.",
+    "excerpt": "Create a clutter-free and tranquil retreat using our smart storage bed solutions and a soothing, softer color palette.",
     "image": "assets/figma/category-bedroom.webp"
   },
   {
     "id": 4,
-    "title": "How to style a statement sofa",
+    "title": "Making a Statement: The Modern Sofa Daybed",
     "category": "Living",
     "date": "18 Jul 2026",
-    "excerpt": "Keep the surrounding pieces simple and let the sofa lead the visual story.",
-    "image": "assets/figma/product-3.webp"
+    "excerpt": "Keep the surrounding pieces simple and let the plush, luxurious curves of our Sofa Daybed lead your room's visual story.",
+    "image": "assets/figma/product_3.webp"
   },
   {
     "id": 5,
-    "title": "A practical guide to mixing wood tones",
+    "title": "Modern Elegance: Incorporating the Blum Coffee Table",
     "category": "Tips",
     "date": "09 Jul 2026",
-    "excerpt": "Three rules make mixed woods look intentional rather than accidental.",
+    "excerpt": "A practical guide to balancing minimalist stone-top tables with rich wood accents for an intentional, sophisticated look.",
     "image": "assets/figma/product-table.webp"
   },
   {
     "id": 6,
-    "title": "Decor that feels personal",
+    "title": "Styling Your Bedside: The Maxine Nightstand",
     "category": "Interior",
     "date": "01 Jul 2026",
-    "excerpt": "Meaningful objects work best when you give them space to breathe.",
-    "image": "assets/figma/product-5.webp"
+    "excerpt": "Meaningful objects work best when given space to breathe. Discover how to style your modern wooden nightstand with artistic vases and unique frames.",
+    "image": "assets/figma/product_5.webp"
   }
 ]

@@ -1,316 +1,230 @@
 [
   {
     "id": 1,
-    "name": "Syltherine",
+    "name": "Minimalist Dining Set",
     "category": "Dining",
     "tag": "-30%",
-    "description": "Stylish cafe chair",
-    "price": 2500000,
-    "oldPrice": 3500000,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "White",
-      "Oak",
-      "Black"
-    ],
+    "description": "Minimalist style kitchen dining set",
+    "price": 19600000,
+    "oldPrice": 28000000,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Oak", "Black"],
     "brand": "Furniro",
-    "image": "assets/figma/product-1.webp",
+    "image": "assets/figma/product_1.webp",
     "gallery": [
-      "assets/figma/product-1.webp",
-      "assets/figma/category-dining.webp",
-      "assets/figma/product-6.webp",
-      "assets/figma/product-4.webp"
+      "assets/figma/product_1.webp",
+      "assets/figma/product_1_chitiet_1.webp",
+      "assets/figma/product_1_chitiet_2.webp",
+      "assets/figma/product_1_chitiet_3.webp"
     ]
   },
   {
     "id": 2,
-    "name": "Leviosa",
+    "name": "Right-Facing Sectional Sofa",
     "category": "Living",
     "tag": "",
-    "description": "Stylish cafe chair",
-    "price": 2500000,
+    "description": "Luxurious and comfortable right-facing sectional sofa",
+    "price": 39000000,
     "oldPrice": 0,
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      "Black",
-      "Oak"
-    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Blue", "Oak"],
     "brand": "Furniro",
-    "image": "assets/figma/product-2.webp",
+    "image": "assets/figma/product_2.webp",
     "gallery": [
-      "assets/figma/product-2.webp",
-      "assets/figma/product-chair.webp",
-      "assets/figma/product-5.webp",
-      "assets/figma/product-7.webp"
+      "assets/figma/product_2.webp",
+      "assets/figma/product_2_chitiet_1.webp",
+      "assets/figma/product_2_chitiet_2.webp",
+      "assets/figma/product_2_chitiet_3.webp"
     ]
   },
   {
     "id": 3,
-    "name": "Lolito",
+    "name": "Sofa Daybed",
     "category": "Living",
     "tag": "-50%",
-    "description": "Luxury big sofa",
-    "price": 7000000,
-    "oldPrice": 14000000,
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Grey",
-      "Beige",
-      "Black"
-    ],
+    "description": "Modern, plush, and luxurious round lounge chair",
+    "price": 19500000,
+    "oldPrice": 39000000,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["White", "Yellow", "Brown"],
     "brand": "Furniro",
-    "image": "assets/figma/product-3.webp",
+    "image": "assets/figma/product_3.webp",
     "gallery": [
-      "assets/figma/product-3.webp",
-      "assets/figma/product-sofa.webp",
-      "assets/figma/product-7.webp",
-      "assets/figma/product-4.webp"
+      "assets/figma/product_3.webp",
+      "assets/figma/product_3_chitiet_1.webp",
+      "assets/figma/product_3_chitiet_2.webp",
+      "assets/figma/product_3_chitiet_3.webp"
     ]
   },
   {
     "id": 4,
-    "name": "Respira",
+    "name": "Nancy Armchair",
     "category": "Living",
     "tag": "New",
-    "description": "Outdoor bar table and stool",
-    "price": 500000,
+    "description": "Modern, luxurious, and comfortable armchair",
+    "price": 17000000,
     "oldPrice": 0,
-    "sizes": [
-      "S",
-      "M"
-    ],
-    "colors": [
-      "Natural",
-      "Black"
-    ],
+    "sizes": ["S", "M"],
+    "colors": ["Brown", "Pink"],
     "brand": "Furniro",
-    "image": "assets/figma/product-4.webp",
+    "image": "assets/figma/product_4.webp",
     "gallery": [
-      "assets/figma/product-4.webp",
-      "assets/figma/product-table.webp",
-      "assets/figma/category-living.webp",
-      "assets/figma/category-bedroom.webp"
+      "assets/figma/product_4.webp",
+      "assets/figma/product_4_chitiet_1.webp",
+      "assets/figma/product_4_chitiet_2.webp",
+      "assets/figma/product_4_chitiet_3.webp"
     ]
   },
   {
     "id": 5,
-    "name": "Grifo",
+    "name": "Maxine Nightstand",
     "category": "Bedroom",
     "tag": "",
-    "description": "Night lamp",
-    "price": 1500000,
+    "description": "Modern and luxurious wooden nightstand",
+    "price": 15000000,
     "oldPrice": 0,
-    "sizes": [
-      "S",
-      "M"
-    ],
-    "colors": [
-      "White",
-      "Black"
-    ],
+    "sizes": ["S", "M"],
+    "colors": ["Brown", "Black"],
     "brand": "Furniro",
-    "image": "assets/figma/product-5.webp",
+    "image": "assets/figma/product_5.webp",
     "gallery": [
-      "assets/figma/product-5.webp",
-      "assets/figma/category-bedroom.webp",
-      "assets/figma/product-8.webp",
-      "assets/figma/product-1.webp"
+      "assets/figma/product_5.webp",
+      "assets/figma/product_5_chitiet_1.webp",
+      "assets/figma/product_5_chitiet_2.webp",
+      "assets/figma/product_5_chitiet_3.webp"
     ]
   },
   {
     "id": 6,
-    "name": "Muggo",
+    "name": "Leopard Picture Frame",
     "category": "Decor",
     "tag": "New",
-    "description": "Small mug",
-    "price": 150000,
+    "description": "Unique decorative picture frame",
+    "price": 2000000,
     "oldPrice": 0,
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      "White",
-      "Sand",
-      "Blue"
-    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["White", "Sand", "Blue"],
     "brand": "Furniro",
-    "image": "assets/figma/product-6.webp",
+    "image": "assets/figma/product_6.webp",
     "gallery": [
-      "assets/figma/product-6.webp",
-      "assets/figma/product-2.webp",
-      "assets/figma/product-5.webp",
-      "assets/figma/product-8.webp"
+      "assets/figma/product_6.webp",
+      "assets/figma/product_6_chitiet_1.webp",
+      "assets/figma/product_6_chitiet_2.webp",
+      "assets/figma/product_6_chitiet_3.webp"
     ]
   },
   {
     "id": 7,
-    "name": "Pingky",
+    "name": "Blum Coffee Table",
     "category": "Living",
     "tag": "-50%",
-    "description": "Cute bed set",
-    "price": 7000000,
-    "oldPrice": 14000000,
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Pink",
-      "White",
-      "Grey"
-    ],
+    "description": "Minimalist and luxurious stone-top coffee table",
+    "price": 4500000,
+    "oldPrice": 9000000,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["White", "Grey"],
     "brand": "Furniro",
-    "image": "assets/figma/product-7.webp",
+    "image": "assets/figma/product_7.webp",
     "gallery": [
-      "assets/figma/product-7.webp",
-      "assets/figma/category-bedroom.webp",
-      "assets/figma/product-3.webp",
-      "assets/figma/product-1.webp"
+      "assets/figma/product_7.webp",
+      "assets/figma/product_7_chitiet_1.webp.webp",
+      "assets/figma/product_7_chitiet_2.webp.webp",
+      "assets/figma/product_7_chitiet_3.webp.webp"
     ]
   },
   {
     "id": 8,
-    "name": "Potty",
+    "name": "Butterfly Ceramic Vase",
     "category": "Decor",
     "tag": "New",
-    "description": "Minimalist flower pot",
-    "price": 500000,
+    "description": "Artistic blue and white decorative ceramic vase",
+    "price": 7760000,
     "oldPrice": 0,
-    "sizes": [
-      "S",
-      "M"
-    ],
-    "colors": [
-      "White",
-      "Terracotta",
-      "Black"
-    ],
+    "sizes": ["S", "M"],
+    "colors": ["White", "Blue", "Black"],
     "brand": "Furniro",
-    "image": "assets/figma/product-8.webp",
+    "image": "assets/figma/product_8.webp",
     "gallery": [
-      "assets/figma/product-8.webp",
-      "assets/figma/product-5.webp",
-      "assets/figma/product-6.webp",
-      "assets/figma/category-bedroom.webp"
+      "assets/figma/product_8.webp",
+      "assets/figma/product_8_chitiet_1.webp",
+      "assets/figma/product_8_chitiet_2.webp",
+      "assets/figma/product_8_chitiet_3.webp"
     ]
   },
   {
     "id": 9,
-    "name": "Belen",
+    "name": "Jazz Display Cabinet",
     "category": "Dining",
     "tag": "",
-    "description": "Compact dining chair",
-    "price": 1850000,
+    "description": "Modern and elegant Jazz wooden cabinet",
+    "price": 25400000,
     "oldPrice": 0,
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      "Oak",
-      "Black"
-    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Oak", "Black"],
     "brand": "Furniro",
-    "image": "assets/figma/product-chair.webp",
+    "image": "assets/figma/product_8.webp",
     "gallery": [
-      "assets/figma/product-chair.webp",
-      "assets/figma/category-dining.webp",
-      "assets/figma/product-6.webp",
-      "assets/figma/product-1.webp"
+      "assets/figma/product_8.webp",
+      "assets/figma/product_8_chitiet_1.webp",
+      "assets/figma/product_8_chitiet_2.webp",
+      "assets/figma/product_8_chitiet_3.webp"
     ]
   },
   {
     "id": 10,
-    "name": "Lumière",
+    "name": "Penny Storage Bed",
     "category": "Bedroom",
     "tag": "New",
-    "description": "Soft bedside table",
-    "price": 2950000,
+    "description": "Modern and convenient Penny storage bed",
+    "price": 14600000,
     "oldPrice": 0,
-    "sizes": [
-      "M",
-      "L"
-    ],
-    "colors": [
-      "White",
-      "Oak"
-    ],
+    "sizes": ["M", "L"],
+    "colors": ["White", "Oak"],
     "brand": "Furniro",
-    "image": "assets/figma/product-1.webp",
+    "image": "assets/figma/product_1.webp",
     "gallery": [
-      "assets/figma/product-1.webp",
-      "assets/figma/category-bedroom.webp",
-      "assets/figma/product-8.webp",
-      "assets/figma/product-5.webp"
+      "assets/figma/product_10.webp",
+      "assets/figma/product_10_chitiet_1.webp",
+      "assets/figma/product_10_chitiet_2.webp",
+      "assets/figma/product_10_chitiet_3.webp"
     ]
   },
   {
     "id": 11,
-    "name": "Studio",
+    "name": "Amba Round Nesting Tables",
     "category": "Living",
-    "tag": "",
-    "description": "Classic lounge sofa",
-    "price": 8200000,
-    "oldPrice": 9600000,
-    "sizes": [
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Beige",
-      "Grey",
-      "Black"
-    ],
+    "tag": "-20%",
+    "description": "Modern and elegant Amba round side table set of 2",
+    "price": 152000000,
+    "oldPrice": 19000000,
+    "sizes": ["L", "XL"],
+    "colors": ["Beige", "Grey", "Black"],
     "brand": "Furniro",
-    "image": "assets/figma/product-sofa.webp",
+    "image": "assets/figma/product_11.webp",
     "gallery": [
-      "assets/figma/product-sofa.webp",
-      "assets/figma/product-3.webp",
-      "assets/figma/category-living.webp",
-      "assets/figma/product-7.webp"
+      "assets/figma/product_11.webp",
+      "assets/figma/product_11_chitiet_1.webp",
+      "assets/figma/product_11_chitiet_2.webp",
+      "assets/figma/product_11_chitiet_3.webp"
     ]
   },
   {
     "id": 12,
-    "name": "Workshop",
+    "name": "Workshop Dining Set",
     "category": "Dining",
     "tag": "-20%",
-    "description": "Industrial dining table",
-    "price": 6900000,
-    "oldPrice": 8600000,
-    "sizes": [
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Oak",
-      "Walnut",
-      "Black"
-    ],
+    "description": "Minimalist and elegant wooden dining set",
+    "price": 48000000,
+    "oldPrice": 56000000,
+    "sizes": ["L", "XL"],
+    "colors": ["Oak", "Walnut", "Black"],
     "brand": "Furniro",
-    "image": "assets/figma/product-table.webp",
+    "image": "assets/figma/product_12.webp",
     "gallery": [
-      "assets/figma/product-table.webp",
-      "assets/figma/category-dining.webp",
-      "assets/figma/product-4.webp",
-      "assets/figma/product-6.webp"
+      "assets/figma/product_12.webp",
+      "assets/figma/product_12_chitiet_1.webp",
+      "assets/figma/product_12_chitiet_2.webp",
+      "assets/figma/product_12_chitiet_3.webp"
     ]
   }
 ]
