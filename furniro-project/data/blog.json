@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "The joy of a warm, layered room",
+    "category": "Interior",
+    "date": "12 Aug 2026",
+    "excerpt": "Small changes in light, texture and proportion can completely shift a room.",
+    "image": "assets/figma/category-living.webp"
+  },
+  {
+    "id": 2,
+    "title": "5 ways to make a small dining space feel bigger",
+    "category": "Tips",
+    "date": "03 Aug 2026",
+    "excerpt": "Use visual rhythm, lighter finishes and flexible furniture to create breathing room.",
+    "image": "assets/figma/category-dining.webp"
+  },
+  {
+    "id": 3,
+    "title": "Bedroom calm: choosing a softer palette",
+    "category": "Bedroom",
+    "date": "26 Jul 2026",
+    "excerpt": "A bedroom should feel quieter than the rest of the home. Here is how to build that mood.",
+    "image": "assets/figma/category-bedroom.webp"
+  },
+  {
+    "id": 4,
+    "title": "How to style a statement sofa",
+    "category": "Living",
+    "date": "18 Jul 2026",
+    "excerpt": "Keep the surrounding pieces simple and let the sofa lead the visual story.",
+    "image": "assets/figma/product-3.webp"
+  },
+  {
+    "id": 5,
+    "title": "A practical guide to mixing wood tones",
+    "category": "Tips",
+    "date": "09 Jul 2026",
+    "excerpt": "Three rules make mixed woods look intentional rather than accidental.",
+    "image": "assets/figma/product-table.webp"
+  },
+  {
+    "id": 6,
+    "title": "Decor that feels personal",
+    "category": "Interior",
+    "date": "01 Jul 2026",
+    "excerpt": "Meaningful objects work best when you give them space to breathe.",
+    "image": "assets/figma/product-5.webp"
+  }
+]
