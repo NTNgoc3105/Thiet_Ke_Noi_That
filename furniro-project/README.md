@@ -1,6 +1,6 @@
 # Furniro — Interior eCommerce (Đề 06)
 
-Website được dựng lại theo tinh thần Figma **IntelliDesign / interior eCommerce** mà bạn cung cấp. Mình ưu tiên bám bố cục, màu, typography, tỷ lệ card và cách trình bày của màn hình Figma, đồng thời triển khai các luồng JavaScript mà đề bài yêu cầu.
+Website được dựng lại theo tinh thần Figma **IntelliDesign / interior eCommerce** Ưu tiên bám bố cục, màu, typography, tỷ lệ card và cách trình bày của màn hình Figma, đồng thời triển khai các luồng JavaScript mà đề bài yêu cầu.
 
 ## Trang
 - Home
