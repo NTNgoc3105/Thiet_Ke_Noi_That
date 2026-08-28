@@ -485,11 +485,20 @@ function bindGlobal() {
     if (c) {
       const id = Number(c.dataset.compare);
       const ids = getJSON(STORE.compare, []);
-      const next = ids.includes(id)
+      const isRemoving = ids.includes(id);
+      const next = isRemoving
         ? ids.filter((x) => x !== id)
         : [...ids, id].slice(-3);
       setJSON(STORE.compare, next);
-      if (pageName === "compare") renderCompare();
+      if (pageName === "compare") {
+        renderCompare();
+      } else {
+        alert(
+          isRemoving
+            ? "Đã xóa khỏi danh sách so sánh!"
+            : "Đã thêm vào danh sách so sánh (Tối đa 3 sản phẩm).\nBấm vào biểu tượng ♡ trên menu để xem!",
+        );
+      }
     }
     const rd = e.target.closest("[data-remove-cart]");
     if (rd) {

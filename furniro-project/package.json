@@ -1,7 +1,16 @@
 {
-  "name": "furniro-interior-ecommerce",
-  "private": true,
+  "name": "furniro-project",
   "version": "1.0.0",
-  "scripts": {"dev":"vite","build":"vite build","preview":"vite preview"},
-  "devDependencies": {"@tailwindcss/vite":"latest","tailwindcss":"latest","vite":"latest"}
+  "description": "Website được dựng lại theo tinh thần Figma **IntelliDesign / interior eCommerce** Ưu tiên bám bố cục, màu, typography, tỷ lệ card và cách trình bày của màn hình Figma, đồng thời triển khai các luồng JavaScript mà đề bài yêu cầu.",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
