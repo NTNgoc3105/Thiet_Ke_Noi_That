@@ -36,10 +36,12 @@ function logoHTML() {
   </a>`;
 }
 
+
 function headerHTML() {
   return `<header class="sticky top-0 z-40 border-b border-black/5 bg-white/95 backdrop-blur">
     <div class="mx-auto flex h-[74px] max-w-[1280px] items-center justify-between px-5 lg:px-8">
       ${logoHTML()}
+      <!-- Menu desktop -->
       <nav class="hidden items-center gap-10 lg:flex" aria-label="Primary">
         <a href="index.html" class="nav-link" data-link="home">Home</a>
         <a href="shop.html" class="nav-link" data-link="shop">Shop</a>
@@ -47,13 +49,26 @@ function headerHTML() {
         <a href="contact.html" class="nav-link" data-link="contact">Contact</a>
       </nav>
       <div class="flex items-center gap-4">
-        <button class="icon-btn hidden md:inline-flex" data-action="account" aria-label="Account">♙</button>
-        <button class="icon-btn" data-action="search" aria-label="Search">⌕</button>
-        <a href="compare.html" class="icon-btn" aria-label="Compare">♡</a>
-        <button class="icon-btn relative" data-action="cart" aria-label="Cart"><span>🛒</span><span class="cart-badge">0</span></button>
-        <button class="lg:hidden icon-btn" data-action="mobile-menu" aria-label="Open menu">☰</button>
+        <button class="icon-btn hidden md:inline-flex" data-action="account" aria-label="Account">
+          ♙
+        </button>
+        <button class="icon-btn" data-action="search" aria-label="Search">
+          ⌕
+        </button>
+        <a href="compare.html" class="icon-btn" aria-label="Compare">
+          ♡
+        </a>
+        <button class="icon-btn relative" data-action="cart" aria-label="Cart">
+          <span>🛒</span>
+          <span class="cart-badge">0</span>
+        </button>
+        <!-- Hamburger: chỉ hiện dưới lg -->
+        <button class="icon-btn lg:hidden" data-action="mobile-menu" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+          ☰
+        </button>
       </div>
     </div>
+    <!-- Mobile menu: chỉ hiện dưới lg -->
     <div id="mobile-menu" class="hidden border-t border-black/5 bg-white lg:hidden">
       <nav class="mx-auto flex max-w-[1280px] flex-col px-5 py-4" aria-label="Mobile">
         <a class="mobile-nav-link" href="index.html">Home</a>
@@ -61,11 +76,15 @@ function headerHTML() {
         <a class="mobile-nav-link" href="about.html">About</a>
         <a class="mobile-nav-link" href="contact.html">Contact</a>
         <a class="mobile-nav-link" href="compare.html">Compare</a>
-        <button class="mobile-nav-link text-left" data-action="cart">Open cart</button>
+        <button class="mobile-nav-link text-left" data-action="cart">
+          Open cart
+        </button>
       </nav>
     </div>
   </header>`;
 }
+
+
 
 function footerHTML() {
   return `<footer class="border-t border-black/10 bg-white">
