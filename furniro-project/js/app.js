@@ -38,7 +38,7 @@ function logoHTML() {
 
 
 function headerHTML() {
-  return `<header class="sticky top-0 z-40 border-b border-black/5 bg-white/95 backdrop-blur">
+  return `<header class="sticky top-0 z-40 header-border header-background backdrop-blur">
     <div class="mx-auto flex h-[74px] max-w-[1280px] items-center justify-between px-5 lg:px-8">
       ${logoHTML()}
       <!-- Menu desktop -->
@@ -69,7 +69,7 @@ function headerHTML() {
       </div>
     </div>
     <!-- Mobile menu: chỉ hiện dưới lg -->
-    <div id="mobile-menu" class="hidden border-t border-black/5 bg-white lg:hidden">
+    <div id="mobile-menu" class="hidden mobile-menu-border mobile-menu-background lg:hidden">
       <nav class="mx-auto flex max-w-[1280px] flex-col px-5 py-4" aria-label="Mobile">
         <a class="mobile-nav-link" href="index.html">Home</a>
         <a class="mobile-nav-link" href="shop.html">Shop</a>
@@ -87,32 +87,42 @@ function headerHTML() {
 
 
 function footerHTML() {
-  return `<footer class="border-t border-black/10 bg-white">
+  return `<footer class="footer-border footer-background">
     <div class="mx-auto grid max-w-[1180px] gap-10 px-5 py-14 md:grid-cols-4 lg:px-8">
-      <div><div class="text-xl font-bold">Furniro.</div><p class="mt-6 max-w-[230px] text-sm leading-6 text-black/50">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p></div>
-      <div><div class="text-sm text-black/40">Links</div><div class="mt-6 grid gap-4 text-sm"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></div>
-      <div><div class="text-sm text-black/40">Help</div><div class="mt-6 grid gap-4 text-sm"><a href="checkout.html">Payment Options</a><a href="cart.html">Returns</a><a href="#">Privacy Policies</a></div></div>
-      <div><div class="text-sm text-black/40">Newsletter</div><form class="mt-6 flex gap-2" data-form="subscribe"><input class="line-input w-full" required type="email" placeholder="Enter Your Email Address" aria-label="Email"><button class="text-xs font-semibold underline underline-offset-4">SUBSCRIBE</button></form><p class="mt-2 hidden text-xs text-red-600" data-error="subscribe"></p></div>
+      <div><div class="text-xl font-bold">Furniro.</div><p class="footer-description mt-6 max-w-[230px] text-sm leading-6">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p></div>
+      <div><div class="footer-label text-sm">Links</div><div class="mt-6 grid gap-4 text-sm"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></div>
+      <div><div class="footer-label text-sm">Help</div><div class="mt-6 grid gap-4 text-sm"><a href="checkout.html">Payment Options</a><a href="cart.html">Returns</a><a href="#">Privacy Policies</a></div></div>
+      <div><div class="footer-label text-sm">Newsletter</div><form class="mt-6 flex gap-2" data-form="subscribe"><input class="line-input w-full" required type="email" placeholder="Enter Your Email Address" aria-label="Email"><button class="text-xs font-semibold underline underline-offset-4">SUBSCRIBE</button></form><p class="mt-2 hidden text-xs footer-error" data-error="subscribe"></p></div>
     </div>
-    <div class="mx-auto max-w-[1180px] border-t border-black/10 px-5 py-5 text-xs text-black/60 lg:px-8">2026 Furniro. All rights reserved</div>
+    <div class="footer-bottom mx-auto max-w-[1180px] px-5 py-5 text-xs lg:px-8">2026 Furniro. All rights reserved</div>
   </footer>`;
 }
 
 function cartDrawerHTML() {
-  return `<div id="cart-overlay" class="pointer-events-none fixed inset-0 z-50 bg-black/30 opacity-0 transition"></div>
-  <aside id="cart-drawer" class="fixed right-0 top-0 z-[60] flex h-full w-full max-w-[520px] translate-x-full flex-col bg-white shadow-2xl transition-transform" aria-label="Mini cart" aria-hidden="true">
-    <div class="flex items-center justify-between border-b border-black/10 px-8 py-7"><div><div class="text-2xl font-semibold">Shopping Cart</div><div class="mt-1 text-xs text-black/45">Your saved pieces</div></div><button class="icon-btn" data-action="close-cart">✕</button></div>
+  return `<div id="cart-overlay" class="pointer-events-none fixed inset-0 z-50 cart-overlay opacity-0 transition"></div>
+  <aside id="cart-drawer" class="fixed right-0 top-0 z-[60] flex h-full w-full max-w-[520px] translate-x-full flex-col cart-drawer shadow-2xl transition-transform" aria-label="Mini cart" aria-hidden="true">
+    <div class="flex items-center justify-between cart-drawer-header px-8 py-7"><div><div class="text-2xl font-semibold">Shopping Cart</div><div class="mt-1 text-xs cart-drawer-description">Your saved pieces</div></div><button class="icon-btn" data-action="close-cart">✕</button></div>
     <div id="drawer-items" class="flex-1 space-y-3 overflow-y-auto p-6"></div>
-    <div class="border-t border-black/10 p-6"><div id="drawer-free" class="mb-4 hidden rounded bg-[#F9F1E7] p-3 text-xs text-[#8C6A20]"></div><div class="flex items-center justify-between text-base"><span>Subtotal</span><strong id="drawer-subtotal">₫0</strong></div><div class="mt-4 flex gap-3"><a href="cart.html" class="btn-outline flex-1 text-center">Cart</a><a href="checkout.html" class="btn-primary flex-1 text-center">Checkout</a></div></div>
+    <div class="cart-drawer-footer p-6"><div id="drawer-free" class="mb-4 hidden rounded cart-free-message p-3 text-xs"></div><div class="flex items-center justify-between text-base"><span>Subtotal</span><strong id="drawer-subtotal">₫0</strong></div><div class="mt-4 flex gap-3"><a href="cart.html" class="btn-outline flex-1 text-center">Cart</a><a href="checkout.html" class="btn-primary flex-1 text-center">Checkout</a></div></div>
   </aside>`;
 }
 
 function searchModalHTML() {
-  return `<div id="search-modal" class="pointer-events-none fixed inset-0 z-[70] flex items-start justify-center bg-black/30 opacity-0 transition"><div class="mt-24 w-[min(760px,calc(100%-32px))] rounded-2xl bg-white p-6 shadow-2xl"><div class="flex items-center gap-3 border-b border-black/10 pb-4"><span class="text-xl">⌕</span><input id="global-search" class="w-full border-0 bg-transparent text-lg outline-none" placeholder="Search products..." autocomplete="off"><button class="icon-btn" data-action="close-search">✕</button></div><div id="search-results" class="mt-4 grid gap-3"></div></div></div>`;
+  return `<div id="search-modal" class="pointer-events-none fixed inset-0 z-[70] flex items-start justify-center search-modal opacity-0 transition">
+  <div class="mt-24 w-[min(760px,calc(100%-32px))] rounded-2xl search-modal-content p-6 shadow-2xl">
+  <div class="flex items-center gap-3 search-modal-header pb-4"><span class="text-xl">⌕</span>
+  <input id="global-search" class="w-full search-input border-0 text-lg outline-none" placeholder="Search products..." autocomplete="off">
+  <button class="icon-btn" data-action="close-search">✕</button></div><div id="search-results" class="mt-4 grid gap-3">
+  </div></div></div>`;
 }
 
 function accountModalHTML() {
-  return `<div id="account-modal" class="pointer-events-none fixed inset-0 z-[70] flex items-center justify-center bg-black/30 opacity-0 transition"><div class="w-[min(420px,calc(100%-32px))] rounded-2xl bg-white p-7 shadow-2xl"><div class="flex items-center justify-between"><div class="text-2xl font-semibold">Welcome back</div><button class="icon-btn" data-action="close-account">✕</button></div><form class="mt-6 grid gap-4" data-form="login"><label class="text-sm">Email<input class="form-input mt-2" required type="email"></label><label class="text-sm">Password<input class="form-input mt-2" required minlength="6" type="password"></label><button class="btn-primary">Login</button><p class="hidden text-xs text-red-600" data-error="login"></p></form></div></div>`;
+  return `<div id="account-modal" class="pointer-events-none fixed inset-0 z-[70] flex items-center justify-center account-modal opacity-0 transition">
+  <div class="w-[min(420px,calc(100%-32px))] rounded-2xl account-modal-content p-7 shadow-2xl"><div class="flex items-center justify-between">
+  <div class="text-2xl font-semibold">Welcome back</div><button class="icon-btn" data-action="close-account">✕</button></div>
+  <form class="mt-6 grid gap-4" data-form="login"><label class="text-sm">Email<input class="form-input mt-2" required type="email"></label>
+  <label class="text-sm">Password<input class="form-input mt-2" required minlength="6" type="password"></label><button class="btn-primary">Login</button>
+  <p class="hidden text-xs account-error" data-error="login"></p></form></div></div>`;
 }
 
 function injectShell() {
@@ -742,3 +752,41 @@ function bindCheckout() {
     renderContact();
   }
 })();
+
+export function initToTop() {
+    const btn = document.getElementById("nut-len-dau");
+    const sentinel = document.getElementById("nav-sentinel");
+
+    if (!btn || !sentinel) return;
+
+    const observer = new IntersectionObserver(
+        ([entry]) => {
+            btn.classList.toggle(
+                "is-visible",
+                !entry.isIntersecting
+            );
+        },
+        {
+            rootMargin: "400px 0px 0px 0px"
+        }
+    );
+
+    observer.observe(sentinel);
+
+    btn.addEventListener("click", () => {
+        const reduced =
+            window.matchMedia(
+                "(prefers-reduced-motion: reduce)"
+            ).matches;
+
+        window.scrollTo({
+            top: 0,
+            behavior: reduced ? "auto" : "smooth"
+        });
+
+        document.documentElement.tabIndex = -1;
+        document.documentElement.focus({
+            preventScroll: true
+        });
+    });
+}
